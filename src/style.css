@@ -1,0 +1,298 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.galaxy{
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(../src/img/Background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 2.813em;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	width: 140px;
+	cursor: pointer;
+}
+span{
+	color: #009688;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0.625em  1.563em;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #009688;
+	transition: .4s;
+}
+.btn{
+	background-color:#009688;
+	color: white;
+	text-decoration: none;
+	border: 0.125em solid transparent;
+	font-weight: bold;
+	padding: 0.625em 1.563em;
+	border-radius: 1.875em;
+	transition: transform .4s; 
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+h1{
+	color: #fcfc;
+	margin: 20px 0px 20px;
+	font-size: 4.688em;
+}
+h3{
+	color: white;
+	font-size: 1.563em;
+	margin-bottom: 3.125em;
+}
+h4{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 1.25;
+}
+.about{
+	width: 100%;
+	padding: 100px 0em;
+	background-color: #1c2c33;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 70.625em;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: #fcfc;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: white;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.projects{
+	background: #040a0e;
+	width: 100%;
+	padding: 6.25em 0em;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 2500%;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 1.25em 2.188em;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #009688;
+
+}
+h5{
+	color: #ffccffcc;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: white;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:#009688;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 0.563em 1.375em;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #009688;
+	cursor: pointer;
+}
+.contact-me{
+	width: 100%;
+	height: 290px;
+	background: #1c2c33;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-me p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.contact-me .button-two{
+	background-color:#009688;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 0.813em 1.875em;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.contact-me .button-two:hover{
+	background-color: transparent;
+	border: 2px solid #009688;
+	cursor: pointer;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #040a0e;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #009688;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#009688;
+	bottom: 35px;
+	font-size: 14px; 
+}
+
+@media screen and (max-width: 844px)
+{
+	.galaxy{
+		height: 100vh;
+		width: 290%;
+	}
+	.about{
+		width: 290%;
+		padding: 100px 0em;
+	}
+	.about-text h2{
+		font-size: 50px;
+		margin-bottom: 20px;
+	}
+	.main{
+		width: 290%;
+		max-width: 95%;
+	}
+	h1{
+		font-size: 50px;
+		line-height: 40px;
+	}
+	h3{
+		font-size: 15px;
+	}
+	.projects{
+		width: 290%;
+		padding: 6.25em 0em;
+	}
+	.contact-me{
+		width: 290%;
+		height: 290px;
+	}
+	footer{
+		width: 290%;
+		height: 400px;
+	}
+}
