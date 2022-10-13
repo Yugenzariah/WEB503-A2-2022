@@ -1,7 +1,7 @@
 # WEB503-A2-2022
 
 ## Introduction 
-The website consists the following:
+`The website consists the following:`
 - An initial sketch of the design.
 - An entry page to the website index.html.
 - Two ancillary pages which are linked to the entry page, which link back to the entry. Additional pages are named Skills.html and 404.html. Necessary pages are also included
